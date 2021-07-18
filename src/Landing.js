@@ -7,15 +7,7 @@ const Landing = ()=>{
     <div style={{height:'100vh'}}>
     <div className="landing">
       <p className="title">Incredible India</p>
-    <Parallax
-    >
-        <Layer
-          className="taj-mahal"
-          settings={{ speed: -0.25, type: ["translateY"] }}
-        >
-          <img src="https://purepng.com/public/uploads/large/taj-mahal-skr.png" />
-        </Layer>
-    </Parallax>
+  
     </div>
     </div>
   )

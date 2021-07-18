@@ -46,6 +46,25 @@ p {
   width: 50vw;
   height: 70vh;
 }
+
+.app-scroll{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 120vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.app-scroll::-webkit-scrollbar {
+  display: none;
+}
+.ab{
+  
+  scroll-snap-align:start;  
+  scroll-margin: 0;
+  scroll-padding: 0;
+}
+
 @media (max-width: 600px) {
   .parallax {
     width: 100%;
