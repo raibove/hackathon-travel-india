@@ -20,7 +20,7 @@ const AboutPage = ({ id, type }) => {
         {type==="place"?
           db.map((data, index) => (
             <section className="ones" key={index} style={{backgroundImage:`url(${imgu})`}}>
-              <div style={{ display: 'flex' }} className="snap-container">
+              <div  className="snap-container">
                 <h1 className="snap-title">{data.place_name}</h1>
                 <p className="snap-despcription">{data.description}</p>
               </div>

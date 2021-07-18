@@ -4,12 +4,6 @@ section{
   scroll-margin: 0;
   scroll-padding: 0;
 }
-.snap-container{
-  font-size: 1.5rem;
-  color:whitesmoke;
-  font-weight: bolder;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .container{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -18,8 +12,6 @@ section{
   scrollbar-width: none;  /* Firefox */
   
 }
-/*  https://www.tourmyindia.com/states/goa/image/anjuna-beach-banner.webp */
-
 .container::-webkit-scrollbar {
   display: none;
 }
@@ -31,7 +23,14 @@ section{
   background-repeat: no-repeat;
 }
 
+.snap-container{
+  color:whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+}
+
 .snap-title{
+  font-size: 25px;
   margin:  40px 20px;
   color:blue
 }
@@ -43,4 +42,30 @@ section{
 
 .card-container{
   display: flex;
+}
+
+@media (max-width: 600px) {
+  .container{
+    scroll-snap-type: y proximity;
+  }
+  .card-container{
+    scroll-snap-type: x proximity;
+    overflow-x: scroll;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .snap-title{
+    font-size: 18px;
+  }
+  .snap-despcription{
+    font-size: 16px;
+    margin: 15px;
+  }
+
 }
