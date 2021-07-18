@@ -1,0 +1,64 @@
+h1,
+p {
+  font-family: Lato;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.title{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.landing {
+  height: 100%;
+  width:auto;
+  background: url('https://www.tajmahal.gov.in/images/nightview.jpg');
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.light{
+  background: url('https://www.tajmahal.gov.in/images/nightview.jpg');
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dark{
+  background: url('https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/2/21/thumbnail.png.rend.hgtvcom.616.308.suffix/1582329440048.png');
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.taj-mahal {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  transition: all 0.1s;
+  width: 50vw;
+  height: 70vh;
+}
+@media (max-width: 600px) {
+  .parallax {
+    width: 100%;
+    height: auto;
+  }
+
+.landing {
+  background-position: top;
+}
+.taj-mahal {
+  top:22%;
+  width: 20vw;
+  height: 35vh;
+  left:40%;
+}
+}

@@ -1,0 +1,44 @@
+section{
+  height:100vh;
+  scroll-snap-align:start;  
+}
+.snap-container{
+  font-size: 1.5rem;
+  color:whitesmoke;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+}
+/*  https://www.tourmyindia.com/states/goa/image/anjuna-beach-banner.webp */
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.ones{
+  background-color: wheat;
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.snap-title{
+  margin:  40px 20px;
+  color:blue
+}
+.snap-despcription{
+  margin: 40px ;
+  font-size: 23px;
+  color: brown;
+}
+
+.card-container{
+  display: flex;
+}
