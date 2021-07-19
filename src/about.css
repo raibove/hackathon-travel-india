@@ -45,9 +45,7 @@ section{
 }
 
 @media (max-width: 600px) {
-  .container{
-    scroll-snap-type: y proximity;
-  }
+
   .card-container{
     scroll-snap-type: x proximity;
     overflow-x: scroll;

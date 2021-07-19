@@ -50,7 +50,7 @@ p {
 .app-scroll{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  height: 120vh;
+  height: 100vh;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -59,7 +59,6 @@ p {
   display: none;
 }
 .ab{
-  
   scroll-snap-align:start;  
   scroll-margin: 0;
   scroll-padding: 0;
