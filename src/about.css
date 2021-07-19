@@ -42,22 +42,22 @@ section{
 
 .card-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
 
   .card-container{
-    scroll-snap-type: x proximity;
     overflow-x: scroll;
-    width: 60vw;
+    justify-content: space-around;
     height: 70vh;
-    display: flex;
-    align-items: center;
-  
+    width: 85vw;
+    margin:auto;
+    padding:20px;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
-
   .snap-title{
     font-size: 18px;
   }
@@ -65,5 +65,4 @@ section{
     font-size: 16px;
     margin: 15px;
   }
-
 }

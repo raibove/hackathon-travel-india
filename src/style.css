@@ -14,7 +14,7 @@ p {
   color: white;
 }
 .landing {
-  height: 100%;
+  height: 100vh;
   width:auto;
   background: url('https://www.tajmahal.gov.in/images/nightview.jpg');
   background-size: 100vw;
@@ -22,19 +22,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.light{
-  background: url('https://www.tajmahal.gov.in/images/nightview.jpg');
-  background-size: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.dark{
-  background: url('https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/2/21/thumbnail.png.rend.hgtvcom.616.308.suffix/1582329440048.png');
-  background-size: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .taj-mahal {
   position: absolute;
   top: 25%;
@@ -68,15 +55,15 @@ p {
   .parallax {
     width: 100%;
     height: auto;
+    }
+  .landing {
+    background-position: top;
+    height: 50vh;
+    }
+  .taj-mahal {
+    top:22%;
+    width: 20vw;
+    height: 35vh;
+    left:40%;
   }
-
-.landing {
-  background-position: top;
-}
-.taj-mahal {
-  top:22%;
-  width: 20vw;
-  height: 35vh;
-  left:40%;
-}
 }
