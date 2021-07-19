@@ -7,18 +7,8 @@ import Landing from './Landing';
 import C from "./Card"
 export default function App() {  
 
-  function changeBackground(iy) {
-    console.log('e');
-  }
-
-
-  function removeBackground(){
-    console.log('e');
-
-  }
   return (
     <>
-    <C title="csc" description="vsv" img="ds" removeBackground={removeBackground} changeBackground={changeBackground}/>
     <div className="app-scroll">
       <div className="ab">
         <Landing/>
