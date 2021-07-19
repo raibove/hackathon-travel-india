@@ -14,9 +14,6 @@ export default function App() {
         <Landing/>
       </div>
       <div className="ab">
-      <About type="text" />
-      </div>
-      <div className="ab">
       <About id="about" type="place"/>
       </div>
 
